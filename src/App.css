@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #007bff;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #cce7ff !important;
+}
+
+/* Card Styles */
+.card {
+  background-color: #e3f2fd;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* Button Styles */
+.btn-primary, .btn-success {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover, .btn-success:hover {
+  background-color: #0056b3;
+}
+
+/* Input Styles */
+.form-control {
+  border: 1px solid #007bff;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border-color: #0056b3;
+  box-shadow: none;
+}
+
+/* Container Styles */
+.container {
+  padding: 20px;
+}
+
+/* List Group Styles */
+.list-group-item {
+  background-color: #e3f2fd;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Image Styles */
+img {
+  border-radius: 10px;
+}
+
+/* Spinner Styles */
+@keyframes spinner {
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #e3f2fd;
+  border-top-color: #007bff;
+  border-radius: 50%;
+  animation: spinner 0.6s linear infinite;
+}
